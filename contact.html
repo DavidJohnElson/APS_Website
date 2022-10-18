@@ -179,7 +179,7 @@
 			<div class="container">
 				<div class="row d-flex align-items-stretch no-gutters">
 					<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-						<form onsubmit="sendEmail(); reset();">
+						<form onsubmit="sendEmail(); reset(); return false;">
               <div class="form-group">
                 <input type="text" id="name" class="form-control" placeholder="Your Name">
               </div>
@@ -321,7 +321,7 @@
 
         Username: "",
         Password: "",
-        To: "",
+        To: "davidjohnson.m@outlook.com",
         From: document.getElementById("email").value,
         Subject: "This is the subject",
         Body:

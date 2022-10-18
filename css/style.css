@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -11624,7 +11624,7 @@ a.text-dark:focus {
   }
 
   abbr[title]::after {
-    content: " ("attr(title) ")";
+    content: " ('attr(title) ')";
   }
 
   pre {
@@ -11866,7 +11866,7 @@ h5,
   width: 100%;
 } */
 
-.ftco-nav-width{
+.ftco-nav-width {
   background: #0d1128;
   width: 100%;
 }
@@ -12290,6 +12290,7 @@ h5,
 
 .owl-carousel.home-slider .slider-item .slider-text {
   height: 600px;
+  /* position: relative; */
 }
 
 @media (max-width: 767.98px) {
