@@ -1,0 +1,32 @@
+Dated: 22/11/2022
+1.40 AM - replaced the pics in staffs sections(temp)
+
+Dated: 20/11/2022
+11.32 PM - replaced with the "search" icon in the gallery page for "zoom-in" using link "https://fontawesome.com/v3/icons/"
+11.15 PM - replaced footer in all the page same as in home page.
+10.50 PM - Changed names in footer
+
+
+Dated: 18/11/2022
+11.44 AM - replaced "align-items-stretch" to "js-fullheight" in home page at testimonals section.
+11.38 AM - removed the video section in home page.
+11.31 AM - added sticky bar in home page.
+
+By Jaishree:
+Home page: 
+. Image updation at "What we offer" section. - jai
+. Background image in "Our Dignitaries". [School image]
+. "Testimonals" to be added - jai
+
+About page:
+. Image change at beginning.
+. Father pic to be moved little to left, and content to be next to the pic, (Same applies to sister) - column view
+
+Gallery: (David)
+1. change icon
+
+Staff: (David)
+1. update all teachers & info.
+
+In all the pages "contact" & info should be same; - David
+copy & paste from "Home page"
