@@ -13051,6 +13051,10 @@ h5,
   background: #fff;
 }
 
+.blog-coming-soon{
+  max-width: 100%;
+}
+
 @media (max-width: 767.98px) {
   .aside-stretch {
     background: transparent;
