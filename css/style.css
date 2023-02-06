@@ -586,6 +586,21 @@ pre code {
   margin-left: auto;
 }
 
+  @media(min-width: 690px){
+  .bg-img-2{
+    height:1000px;
+    padding-left:15px;
+    padding-right:15px;
+  }
+}
+
+@media(min-width: 1600px){
+  .bg-img-2{
+    height:1300px;
+    padding-left:25px;
+    padding-right:25px;
+  }
+}
 
 @media(max-width: 400px){
 
@@ -608,6 +623,9 @@ pre code {
 .justify-content-end{
 margin-right: 115px;
 }
+.contact-send-button{ 
+  margin-left: 45px;
+}
 
   .icon-paper-plane{
     display: none;
@@ -627,6 +645,11 @@ margin-right: 115px;
   .Menu{
   padding:5px;
   margin-left: -60px;
+  }
+
+  .map-custom{
+    width:350px;
+    height:300px;
   }
  }
 
@@ -11958,7 +11981,7 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
-  color: black;
+  color: #fd5f00;
 }
 
 @media (max-width: 991.98px) {
@@ -14290,3 +14313,8 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto;
+  touch-action: auto;
+  }

@@ -57,9 +57,11 @@
           class="row no-gutters d-flex align-items-center align-items-stretch"
         >
           <div class="col-md-4 d-flex align-items-center py-4">
+              <div class="School-name">
             <a class="navbar-brand" href="index.html"
               >Ascension <span>Public School</span></a
             >
+          </div>
           </div>
           <div class="col-lg-8 d-block">
             <div class="row d-flex">
@@ -71,7 +73,7 @@
                 >
                   <span class="icon-paper-plane"></span>
                 </div>
-                <div class="text">
+                <div class="text text-email">
                   <span>Email</span>
                   <span>ascensionpublicschool@gmail.com</span>
                 </div>
@@ -84,7 +86,7 @@
                 >
                   <span class="icon-phone2"></span>
                 </div>
-                <div class="text">
+                <div class="text text-phoneno">
                   <span>Call</span>
                   <span>+91 9066669140 </span>
                 </div>
@@ -122,7 +124,8 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="oi oi-menu"></span> Menu
+            <span class="oi oi-menu Menu"></span> 
+            <!-- Menu -->
           </button>
           <!-- <form action="#" class="searchform order-lg-last">
             <div class="form-group d-flex">
@@ -160,14 +163,7 @@
     
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/contact_us_fixed.jpg');">
       <div class="overlay"></div>
-      <!-- <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center">
-          <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Contact Us</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
-          </div>
-        </div>
-      </div> -->
+      
     </section>
 
     <section class="ftco-section contact-section">
@@ -176,7 +172,9 @@
           <div class="col-md-4 d-flex">
           	<div class="bg-light align-self-stretch box p-4 text-center">
           		<h3 class="mb-4">Address</h3>
-	            <p><address>Nagayana Palya, Maruthi Sevanagar, Bengaluru, Karnataka 560033</address></p>
+	            <p><address>Nagayanapalya, Opp. Sir M. Visvesvaraya Terminal,
+                Baiyyappanahalli Road, Maruthi Sevanagar, Bangalore -
+                560033</address></p>
 	          </div>
           </div>
           <div class="col-md-4 d-flex">
@@ -190,15 +188,9 @@
           <div class="col-md-4 d-flex">
           	<div class="bg-light align-self-stretch box p-4 text-center">
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">ascensionpublicschool@gmail.com</a></p>
+	            <p><a href="mailto:ascensionpublicschool@gmail.com">ascensionpublicschool@gmail.com</a></p>
 	          </div>
           </div>
-          <!-- <div class="col-md-3 d-flex">
-          	<div class="bg-light align-self-stretch box p-4 text-center">
-          		<h3 class="mb-4">Website</h3>
-	            <p><a href="#">yoursite.com</a></p>
-	          </div>
-          </div> -->
         </div>
       </div>
     </section>
@@ -220,13 +212,14 @@
               <div class="form-group">
                 <textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="How can we help you?"></textarea>
               </div>
-              <div class="form-group">
+              <div class="form-group contact-send-button">
                 <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
               </div>
             </form>
 					</div>
 					<div class="col-md-6 d-flex align-items-stretch">
-						<div id="map"></div>
+						<!-- <div id="map"></div> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5415109784244!2d77.63637095056103!3d13.001150590791504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae174ada2dd5dd%3A0x857a0aa1fc7956a!2sAscension%20Public%20School!5e0!3m2!1sen!2sin!4v1675464803014!5m2!1sen!2sin" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
 					</div>
 				</div>
 			</div>
@@ -243,13 +236,14 @@
         <div class="row mb-5">
           <div class="col-md-6 col-lg-4">
             <div class="ftco-footer-widget mb-5">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <h2 class="ftco-heading-2">Have any questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
                   <li>
                     <span class="icon icon-map-marker"></span
                     ><span class="text"
-                      >Nagayana Palya, Maruthi Sevanagar, Bengaluru, Karnataka
+                      >Nagayanapalya, Opp. Sir M. Visvesvaraya Terminal,
+                      Baiyyappanahalli Road, Maruthi Sevanagar, Bangalore -
                       560033</span
                     >
                   </li>
@@ -271,63 +265,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-md-6 col-lg-3">
-            <div class="ftco-footer-widget mb-5">
-              <h2 class="ftco-heading-2">Recent Blog</h2>
-              <div class="block-21 mb-4 d-flex">
-                <a
-                  class="blog-img mr-4"
-                  style="background-image: url(images/image_1.jpg)"
-                ></a>
-                <div class="text">
-                  <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about</a
-                    >
-                  </h3>
-                  <div class="meta">
-                    <div>
-                      <a href="#"
-                        ><span class="icon-calendar"></span> June 27, 2019</a
-                      >
-                    </div>
-                    <div>
-                      <a href="#"><span class="icon-person"></span> Admin</a>
-                    </div>
-                    <div>
-                      <a href="#"><span class="icon-chat"></span> 19</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="block-21 mb-5 d-flex">
-                <a
-                  class="blog-img mr-4"
-                  style="background-image: url(images/image_2.jpg)"
-                ></a>
-                <div class="text">
-                  <h3 class="heading">
-                    <a href="#"
-                      >Even the all-powerful Pointing has no control about</a
-                    >
-                  </h3>
-                  <div class="meta">
-                    <div>
-                      <a href="#"
-                        ><span class="icon-calendar"></span> June 27, 2019</a
-                      >
-                    </div>
-                    <div>
-                      <a href="#"><span class="icon-person"></span> Admin</a>
-                    </div>
-                    <div>
-                      <a href="#"><span class="icon-chat"></span> 19</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
+        
           <div class="col-md-6 col-lg-4">
             <div class="ftco-footer-widget mb-5 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
@@ -366,23 +304,7 @@
             </div>
           </div>
           <div class="col-md-6 col-lg-4">
-            <!-- <div class="ftco-footer-widget mb-5">
-              <h2 class="ftco-heading-2">Subscribe Us!</h2>
-              <form action="#" class="subscribe-form">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control mb-2 text-center"
-                    placeholder="Enter email address"
-                  />
-                  <input
-                    type="submit"
-                    value="Subscribe"
-                    class="form-control submit px-3"
-                  />
-                </div>
-              </form>
-            </div> -->
+            
             <div class="ftco-footer-widget mb-5">
               <h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
               <ul
@@ -404,15 +326,11 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy;
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              All rights reserved | This template is made with
-              <i class="icon-heart" aria-hidden="true"></i> by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              All rights reserved
             </p>
           </div>
         </div>
