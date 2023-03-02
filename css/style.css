@@ -13127,6 +13127,10 @@ textarea.form-control {
   position: relative;
 }
 
+.our_dignitaries_images{
+  height: 600px !important;
+}
+
 .ftco-no-pt {
   padding-top: 0;
 }
